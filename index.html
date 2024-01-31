@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>@Yummap</title>
+</head>
+<body>
+    <div class="top-banner">
+        <div class="brand img">
+        <img src = "images/yummaplogo copy.png" alt = @YumMap>
+        </div>
+        <div class="navigation">
+            <a href="#">Subscribe</a>
+            <a href="#">What's On</a>
+            <a href="#">Guides</a>
+            <a href="#">Eating + Drinking</a>
+            <a href="#">Find Places</a>
+        </div>
+    </div>
+    <section class="black-banner">
+        <div>
+            <div class="text-content">
+                <h2 class="text-center">Discover the best places to eat in Manchester and London</h2>
+                <p class="sub-text text-center">The best recommended and reviewed selection of places to eat and drink,
+                    all at the click of a button.</p>
+                </div>
+                <div class="action-buttons">
+                    <div class="button1">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Find
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Restaurant</a>
+                        <a class="dropdown-item" id=selectCafe href="#">Cafes </a> 
+                        <a class="dropdown-item" href="#">Bars & Pubs</a>
+                        <a class="dropdown-item" href="#">Delis</a>
+                        <a class="dropdown-item" href="#">Food Halls & Markets</a>
+                        <a class="dropdown-item" href="#">Street Food</a>
+                    </div>
+                </div>
+                <div class="button2">
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownmenubutton2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    In
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownmenubutton2">
+                    <a class="dropdown-item" id="selectLondon" href="#">London</a>
+                    <a class="dropdown-item" href="#">Manchester</a>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-light search">Search</button>
+            </div>
+        </div>
+    </div>
+
+  
+
+    <div class="tagline">
+        <div class="tagline-box">
+            <img src="https://media.istockphoto.com/id/1223803728/photo/asian-cuisine-served-on-a-table.jpg?s=612x612&w=0&k=20&c=q-dwj6Rh77YNlRa_wbMTMtQ3g4ETVnx33L__xoN74Q8="
+                alt="Delicious Food" class="img-fluid">
+        </div>
+    </div>
+    </section>
+
+    <div class="card-container">
+        <div class="card">
+            <img src="https://images.squarespace-cdn.com/content/v1/58dd75f229687f5a850ec676/1635098375445-O1TYGF3PT4JC3ACI91AE/deep+sand-8224.jpg" 
+            alt="Event and Discounts" class="card-img-top">
+            <div class="card-content">
+                <h3 class="card-title">Events and Discounts you can't miss out on...</h3>
+                <p class="card-text">Up to 50% off mid-week deals and two for one on new and exciting seasonal menus...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FmZXxlbnwwfHwwfHx8MA%3D%3D" 
+            alt="Best Places to Brunch" class="card-img-top">
+            <div class="card-content">
+                <h3 class="card-title">The best places to brunch this winter...</h3>
+                <p class="card-text">Hot Colombian roasted coffee by the fire with a selection of free books, this is one cafe you must visit...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://t3.ftcdn.net/jpg/02/18/01/36/360_F_218013630_rB5NpPbbSrnkpbBHNey9QAVZitCSv0Jc.jpg"
+            alt="Date Night Spots" class="card-img-top">
+            <div class="card-content">
+                <h3 class="card-title">Date night - We've got you covered!</h3>
+                <p class="card-text">Something fancy or casual? We have listed our favourite hot spots for this month...</p>
+                <a href="datenight.html" class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+ 
+
+    <div class="city-skyline mt-3">
+        <img src="images/skyline.png" alt="Manchester Skyline" class="img-fluid">
+        <p class="stay-up-to-date text-center mt-3">Stay up to date with all things happening in London and Manchester
+        </p>
+    </div>
+    <div class="get-in-touch text-center mt-3">
+        <h2 class="text-center">Get In Touch</h2>
+        <form id="subscribeform" class="input-box row mt-3">
+            <div class="col-md-4">
+                <input type="text" id="emailinput" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="col-md-4">
+                <input type="text" id="nameinput" class="form-control" placeholder="Full Name">
+            </div>
+            <div class="col-md-4">
+                <button type="submit" class="btn btn-dark subscribe">Subscribe</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="yumindex.js"></script>
+</body>
+</html>
