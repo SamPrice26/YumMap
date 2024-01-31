@@ -1,0 +1,214 @@
+/* General style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: white;
+  }
+  /* Banner styling */
+  .pg2-top-banner {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5px;
+  }
+  .pg2-brand {
+    font-size: 35px;
+    padding-left: 50px;
+  }
+  .pg2-navigation {
+    font-size: 15px;
+    color: white;
+    padding-right: 50px;
+  }
+  .pg2-nav-list {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  .pg2-nav-list li {
+    float: right;
+    border-right: 1px solid white;
+  }
+  .pg2-nav-list li:last-child {
+    border-left: none;
+  }
+  .pg2-nav-list li:first-child {
+    border-right: none;
+  }
+  .pg2-nav-list li a {
+    display: block;
+    color: white;
+    padding: 5px 25px;
+    text-decoration: none;
+  }
+  .pg2-nav-list li a:hover {
+    background-color: rgb(79, 19, 19);
+  }
+  .bakeries {
+    font-size: 55px;
+    text-align: center;
+    padding: 10px 15px;
+  }
+  .pg2-sort {
+    text-align: center;
+    padding: 0px 10px 3px 10px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  /* Dropdown button */
+  .pg2-dropbtn {
+    background-color: white;
+    color: black;
+    padding: 7px 50px 7px 50px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: solid 2px black;
+    display: inline-block;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  .pg2-dropbtn i {
+    vertical-align: middle;
+    }
+  .pg2-dropbtn:hover {background-color: rgb(79, 19, 19);}
+  .pg2-dropdown {
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .pg2-dropdown-content {
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 80px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .pg2-dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  .pg2-dropdown-content a:hover {background-color: rgb(251, 242, 225);}
+  .pg2-dropbtn:hover {background-color: rgb(79, 19, 19); color: white;}
+  .show {display:block;}
+  /* Bakery list styling */
+  .bakery-list {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  .bakery {
+    background-color: rgb(251, 242, 225);
+  }
+  .pg2-images {
+    width: 250px;
+    height: 175px;
+    overflow: hidden;
+  }
+  .pg2-names {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .pg2-content {
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .pg2-links {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: rgb(251, 242, 225);
+    border: none;
+    width: 250px;
+    padding: 20px;
+    border-top: 3px solid white;
+    cursor: pointer;
+  }
+  .pg2-links:hover {
+    background-color: rgb(79, 19, 19);
+    color: white
+  }
+  /* Footer styling */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 75px 100px;
+  }
+  .pg2-footer {
+    display: flex;
+  }
+  .pg2-about {
+    font-size: 15px;
+    padding-bottom: 40px;
+    justify-content: flex-start;
+  }
+  .pg2-about p {
+    max-width: 400px;
+  }
+  .pg2-social-media {
+    justify-content: flex-end;
+    padding-left: 600px;
+    font-size: 25px;
+  }
+  .fa {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-facebook {
+    background-color: white;
+    color: black;
+  }
+  .fa-instagram {
+    background-color: white;
+    color: black;
+  }
+  .fa-youtube {
+    background-color: white;
+    color: black;
+  }
+  .fa-linkedin {
+    background-color: white;
+    color: black;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .pg2-contact {
+    font-size: 12px;
+  }
+  .pg2-contact-links {
+    list-style-type: none;
+  }
+  .pg2-contact-links li {
+    float: left;
+  }
+  .pg2-contact-links li a {
+    padding: 5px 25px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
